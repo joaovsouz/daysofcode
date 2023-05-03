@@ -1,0 +1,236 @@
+:root {
+    --branco-principal: #ffffff;
+    --nome-empresa: #3A404E;
+    --cinza-link: #667085;
+    --butao-cadastro: #8E2424;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+
+.body {
+    background-color: var(--branco-principal);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inter;
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    text-align: center;
+    margin-top: 1em;
+}
+
+
+.lista__primaria { 
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container__titulo {
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.lista__cadastro {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 3em;
+    padding: 0 2em
+}
+
+.lista__link {
+    padding: 0 1em;
+    color: var(--cinza-link);
+    text-decoration: none;
+}
+
+.botao {
+    background-color: #8E2424;
+    font-size: 16px;
+    color: var(--cinza-link);
+}
+
+.botao {
+    color: var(--branco-principal);
+    padding: 0.5em 1em;
+    border-radius: 10px ;
+    border: 2px solid var(--butao-cadastro);
+    font: bold;
+}
+
+.logo__principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho {
+    text-align: center;
+    margin: 10em 15em;
+}
+
+.titulo__cabecalho {
+    margin-bottom: 2em;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--butao-cadastro);
+}
+
+.subtitulo__cabecalho {
+    margin-bottom: 1em;
+    font-size: 48px;
+    font-weight: 600;
+    color: #101828;
+}
+
+.container__descricao {
+    font-size: 20px;
+    color: #667085;
+    font-weight: 400;
+}
+
+.lista__metrica {
+    display: flex;
+    margin: 2em;
+    padding: 0 1em 0 32px;
+    list-style-type: none;
+}
+
+.titulo__metrica {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--butao-cadastro);
+}
+
+.subtitulo__metrica {
+    font-size: 18px;
+    font-weight: 500;
+    color: #101828;
+}
+
+.descricao__metrica {
+    font-size: 16px;
+    font-weight: 400;
+    color: #667085;
+}
+
+.lista__content {
+    margin: 0 2em
+}
+
+.container__talentos {
+    text-align: center;
+    margin: 7em 0
+
+}
+
+.vagas {
+    background-color: #faeded;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.imagem__reuniao {
+    margin: 5em 0 0 0 ;
+}
+
+
+.container__design {
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.lista__design {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.design__descricao {
+    border: 0.1px solid rgba(150, 149, 149, 0.568);
+    border-radius: 9px;
+    padding:15px 200px;
+    margin-bottom: 2em ;
+}
+
+.container__colaboradores {
+    text-align: center;
+    background-color: #fffafa;
+    margin: 0 7em 7em 7em;
+    border-radius: 10px;
+    padding: 4em;
+}
+
+.subtitulo__colab {
+    font-size: 36px;
+    color: #101828;
+    font-family: sans-serif;
+}
+
+.perfil{
+    list-style-type: none;
+}
+
+.perfil__descricao {
+    color: #101828;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 1em;
+    font-style: bold;
+}
+
+.perfil__job {
+    color: var(--cinza-link);
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.imagem__perfil {
+    margin-top: 3em;
+}
+
+.rodape {
+    text-align: center;
+    background-color: #F9FAFB;
+    padding: 7em 0;
+}
+
+.subtitulo__rodape {
+    margin: 2em 0;
+    font-size: 20px;
+    color: #667085;
+}
+
+.titulo__rodape {
+    font-size: 36px;
+    color: #101828;
+}
+
+.copyright__rodape {
+    font-size: 16px;
+    margin: 2em;
+    color: #98a2b3;
+}
+
+
+
+.email {
+    padding: 8px 40px 8px 8px;
+    font-size: 16px;
+    color: #667085;
+}
+
+
+
