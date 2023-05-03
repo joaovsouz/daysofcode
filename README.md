@@ -1,2 +1,0 @@
-# daysofcode
-#7Daysofcode
